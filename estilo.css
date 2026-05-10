@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(219, 213, 213);
+  padding: 30px;
+  text-align: right;
+}
+
+article {
+  max-width: 700px;
+  margin: 0 auto;
+ border: solid  5px rgb(144, 10, 10);
+ border-radius: 16px;
+ padding: 40px;
+}
+
+section p {
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+header{
+    text-align: center;
+}
+ h1 {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    background-color: white;
+    border: solid;
+    border-radius: 15px;
+    padding: 10px
+    
+} 
+
+img{
+
+    border-radius: 15px;
+    width: 100%;
+}
+
+figure {
+    text-align: center;
+    font-size: small;
+}
+
+section{
+    
+    margin-bottom: 30px;
+    
+}
+
+section h2{
+   text-align: center;
+}
+
+
+footer{
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}   
+button { 
+    background-color: rgb(9, 9, 181);  
+    border: solid black;
+    border-radius: 16px;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    width: fit-content;
+    margin-bottom: 15px;
+    transition: 0.2s ease;
+      
+        
+    }
+.botao-links:hover {
+        background-color: rgb(244, 127, 80);
+        transform: scale(1.05);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+     
+    }
+
+.redes a{
+    color: white;
+    border: solid black;
+    padding: 10px;
+    border-radius: 12px;
+    text-decoration: none;
+    max-width: fit-content;
+}   
+.instagram{
+    background-color: rgb(218, 33, 218)
+}
+.linkedin{
+    background-color: rgb(92, 92, 238);
+}
+.email{
+    background-color: rgb(72, 238, 72);
+
+}
+.github{
+    background-color:rgb(160, 0, 160)
+}
+
+.redes ul{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 10px;
+    }
+    
+    
+.redes{
+   opacity: 0;
+   visibility: hidden;
+   transition: 0.3s;
+ }
+ 
+.mostrar-redes{
+opacity: 1;
+visibility: visible;
+ }
+
+ .botao{
+    background-color: rgb(44, 42, 42);
+    font-size: 14px;
+    padding: 12px;
+    border: solid 3px rgb(255, 255, 255);
+    border-radius: 26px;
+    transition: 0.3s;
+}
+.botao:hover{
+    background-color: rgb(227, 226, 226);
+    color: rgb(45, 43, 43);
+    border: solid 3px rgb(31, 30, 30);
+}
+.botao:active{
+    transform: translateY(2px)
+    scale(0.98)
+}
+body.body-dark-mode {
+  background-color: #3d3d3d;
+  color: #e6dfdf;
+}
+ 
+.body-dark-mode h1{
+    text-shadow:1px 1px 3px rgba(0, 0, 0, 0.3);
+    background-color: rgb(45, 43, 43);
+    color: rgb(219, 216, 216);
+}
+
+  
+    
